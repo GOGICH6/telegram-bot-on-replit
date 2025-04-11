@@ -34,7 +34,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Define global vars and constants
-bot = Bot(token=os.getenv("TELEGRAM_TOKEN"))
+bot = Bot(token=os.getenv("TELEGRAM_T"))
 
 
 def start():
